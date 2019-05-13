@@ -1,0 +1,36 @@
+<nav>
+  <li>
+    <a routerLink="/">
+      Home
+    </a>
+  </li>
+  <li>
+    <a routerLink="/app1">
+      App 1
+    </a>
+    <ul>
+      <li>
+        <a routerLink="/app1/lazy">
+          App 1 - lazy
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a routerLink="/app2">
+      App 2
+    </a>
+    <ul>
+      <li>
+        <a routerLink="/app2/subroute">
+          App 2 - subroute
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a routerLink="/app3">
+      App 3 (does not exist) - render "Not Found"
+    </a>
+  </li>
+</nav>

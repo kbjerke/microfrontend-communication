@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <h5 *ngIf="localStorageMessage">{{ localStorageMessage }}</h5>
+  <button type="button" (click)="sendRedirect()">post redirect</button>
+  <button type="button" (click)="testLogin()">not impl</button>
+</div>
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "app1",
+        "bundle": "app1/main.js",
+        "activityFunction": "location.pathname eq startsWith /app1"
+    },
+    {
+        "name": "app2",
+        "bundle": "app2/main.js",
+        "activityFunction": "location.pathname eq startsWith /app2"
+    },
+    {
+        "name": "navbar",
+        "bundle": "navbar/main.js",
+        "activityFunction": "true"
+    }
+]

@@ -1,0 +1,45 @@
+{
+  "name": "microfrontend-communication",
+  "version": "0.0.1",
+  "description": "Building a microfrontend project using single-spa, angular 7 (single-spa-angular) and adding a communication layer.",
+  "main": "webpack.config.js",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "copy-webpack-plugin": "^5.0.3",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/runtime": "^7.4.4",
+    "core-js": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "single-spa": "^4.3.2",
+    "whatwg-fetch": "^3.0.0",
+    "zone.js": "^0.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run webpack",
+    "webpack": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbjerke/microfrontend-communication.git"
+  },
+  "keywords": [
+    "single-spa",
+    "single-spa-angular",
+    "angular"
+  ],
+  "author": "Kasper Bjerke",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kbjerke/microfrontend-communication/issues"
+  },
+  "homepage": "https://github.com/kbjerke/microfrontend-communication#readme"
+}
